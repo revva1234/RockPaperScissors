@@ -26,6 +26,9 @@ while player == False:
             print("You won!, computer has paper")
         else:
             print("You lost, computer has rock")
+    elif player == "End":
+        print("Thanks for playing")
+        break
     else:
         print("Choose between rock, paper and scissors")
 
